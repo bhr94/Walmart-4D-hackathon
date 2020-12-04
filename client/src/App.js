@@ -4,6 +4,7 @@ import ReactCardFlip from "react-card-flip";
 import BackCard from "./components/BackCard";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
 
+// https://reactjsexample.com/flipping-cards-for-your-react-projects/#google_vignette
 class App extends React.Component {
   // ... component class
   render() {
