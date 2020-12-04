@@ -1,3 +1,5 @@
+
+import FlipCard from "./FlipCard";
 export default function MainSection() {
   return (
     <section className="main-section">
@@ -8,7 +10,12 @@ export default function MainSection() {
           for shopping with us. Come back tomorrow to reveal your new deal.
         </p>
       </article>
-      <ul className = "main-section__card-list"></ul>
+      <ul className = "main-section__card-list">
+          <FlipCard/>
+          <FlipCard/>
+          <FlipCard/>
+          <FlipCard/>
+      </ul>
     </section>
   );
 }

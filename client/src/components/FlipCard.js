@@ -1,7 +1,9 @@
 import React from "react";
-import RevealPage from "./pages/RevealPage";
+import Card from "./Card";
+import BackCard from "./BackCard";
+import ReactCardFlip from "react-card-flip";
 
-class App extends React.Component {
+class FlipCard extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -19,15 +21,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
-        {/* <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
+      <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
         <Card flipClick={this.handleClick} />
         <BackCard flipClick={this.handleClick} />
-      </ReactCardFlip> */}
-        <RevealPage />
-      </>
+      </ReactCardFlip>
     );
   }
 }
 
-export default App;
+export default FlipCard;

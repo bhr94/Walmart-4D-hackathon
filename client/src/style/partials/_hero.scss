@@ -1,5 +1,5 @@
 .header {
-  height: 250px;
+  height: 180px;
   width: 100%;
 
   &-navigate {
@@ -23,7 +23,6 @@
 }
 
 .header__article {
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
