@@ -2,17 +2,18 @@ import spark from "../assets/images/spark.svg"
 import play from "../assets/images/googleplay.svg"
 import app from "../assets/images/appstore.svg"
 
-function DownloadApp() {
+function DownloadApp(props) {
   return (
     <section className="download-app">
       <img className="download-app__spark" src={spark} alt="spark" />
+      {props.children}
       <article className="download-app__main">
         <h3 className="download-app__awesome">
           Awesome! You've unlocked an exclusive rollback deal.
         </h3>
         <p className="download-app__added">
           The deal has been added to{" "}
-          <u>
+          <u>å
             <strong>My Roll Backs</strong>
           </u>
         </p>
