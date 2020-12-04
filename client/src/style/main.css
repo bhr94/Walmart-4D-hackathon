@@ -166,6 +166,9 @@ body {
 
 .footer-container {
   background-color: #0072CE;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-container__list {
@@ -181,7 +184,5 @@ body {
   color: white;
   list-style: none;
   margin-right: 40px;
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 /*# sourceMappingURL=main.css.map */

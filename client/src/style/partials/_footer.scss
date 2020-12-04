@@ -1,5 +1,9 @@
 .footer-container {
   background-color: $primary-color;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
   &__list {
     display: flex;
     justify-content: flex-end;
@@ -8,7 +12,5 @@
     color: white;
     list-style: none;
     margin-right: 40px;
-    padding-top: 16px;
-    padding-bottom: 16px;
   }
 }
