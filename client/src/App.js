@@ -1,8 +1,5 @@
 import React from "react";
-import Card from "./components/Card";
-import BackCard from "./components/BackCard";
-import ReactCardFlip from "react-card-flip";
-
+import RevealPage from "./pages/RevealPage";
 
 class App extends React.Component {
   constructor() {
@@ -15,18 +12,20 @@ class App extends React.Component {
 
   handleClick(e) {
     e.preventDefault();
-    if(!this.state.isFlipped) {
+    if (!this.state.isFlipped) {
       this.setState((prevState) => ({ isFlipped: !prevState.isFlipped }));
     }
-   
   }
 
   render() {
     return (
-      <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
+      <>
+        {/* <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
         <Card flipClick={this.handleClick} />
         <BackCard flipClick={this.handleClick} />
-      </ReactCardFlip>
+      </ReactCardFlip> */}
+        <RevealPage />
+      </>
     );
   }
 }
