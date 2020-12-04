@@ -8,6 +8,7 @@ export default function MainSection() {
           for shopping with us. Come back tomorrow to reveal your new deal.
         </p>
       </article>
+      <ul className = "main-section__card-list"></ul>
     </section>
   );
 }
