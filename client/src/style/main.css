@@ -41,6 +41,151 @@
   src: local("Bogle Black Italic"), url("../assets/fonts/BOGLEBLACKITALIC.woff") format("woff");
 }
 
+.navigation-container {
+  width: 100%;
+  height: 53px;
+}
+
+.navigation-container__text {
+  font-family: "Bogle Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #373B37;
+}
+
+.content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #0072CE;
+  margin: 0 15px;
+}
+
+.header {
+  height: 250px;
+  width: 100%;
+}
+
+.header-navigate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  cursor: pointer;
+}
+
+.header-navigate__text, .header__article-text {
+  font-family: "Bogle Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #373b37;
+  margin-right: 10px;
+}
+
+.header-navigate__img {
+  margin-right: 15px;
+}
+
+.header__article {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__article-title {
+  font-family: "Bogle Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
+  color: #373b37;
+  margin: 0;
+}
+
+.header__article-text {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.main-section {
+  width: 100%;
+  height: 505px;
+  background-color: #0072CE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-section__article {
+  font-family: "Bogle Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-section__article-text {
+  width: 687px;
+}
+
+.footer-container {
+  background-color: #0072CE;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-container__item {
+  color: white;
+  list-style: none;
+  margin-right: 40px;
+}
+
 .card {
   width: 152.48px;
   height: 246.14px;
