@@ -23,3 +23,45 @@
     }
   }
 }
+
+.download-app {
+  width: 100%;
+  height: 505px;
+  background-color: $primary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__spark {
+    width: 474px;
+    height: 542.22px;
+  }
+
+  &__main {
+    width: 666px;
+    margin-left: 64px;
+    color: white;
+  }
+
+  &__awesome {
+    font-size: 36px;
+  }
+
+  &__added {
+    font-size: 28px;
+  }
+
+  &__twice {
+    font-size: 24px;
+  }
+
+  &__apps {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+  }
+
+  &__link {
+    margin-right: 48px;
+  }
+}

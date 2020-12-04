@@ -52,7 +52,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 25px;
-  color: #373B37;
+  color: #373b37;
 }
 
 .content-container {
@@ -162,6 +162,58 @@ body {
 
 .main-section__article-text {
   width: 687px;
+}
+
+.download-app {
+  width: 100%;
+  height: 505px;
+  background-color: #0072CE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download-app__spark {
+  width: 474px;
+  height: 542.22px;
+}
+
+.download-app__main {
+  width: 666px;
+  margin-left: 64px;
+  color: white;
+}
+
+.download-app__awesome {
+  font-size: 36px;
+}
+
+.download-app__added {
+  font-size: 28px;
+}
+
+.download-app__twice {
+  font-size: 24px;
+}
+
+.download-app__apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 48px;
+}
+
+.download-app__link {
+  margin-right: 48px;
 }
 
 .footer-container {
