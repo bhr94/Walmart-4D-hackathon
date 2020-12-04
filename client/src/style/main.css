@@ -134,6 +134,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 
 .main-section__article {
@@ -272,7 +274,7 @@ body {
   width: 246.86px;
   height: 427.44px;
   position: relative;
-  top: -50px;
+  top: -90px;
 }
 
 .card-footer {

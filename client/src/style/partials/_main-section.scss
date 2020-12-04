@@ -4,6 +4,7 @@
   background-color: $primary-color;
   display: flex;
   flex-direction: column;
+  backdrop-filter: blur(10px);
 
   &__article {
     font-family: "Bogle Regular";
