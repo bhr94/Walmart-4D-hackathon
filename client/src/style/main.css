@@ -163,4 +163,25 @@ body {
 .main-section__article-text {
   width: 687px;
 }
+
+.footer-container {
+  background-color: #0072CE;
+}
+
+.footer-container__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.footer-container__item {
+  color: white;
+  list-style: none;
+  margin-right: 40px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
 /*# sourceMappingURL=main.css.map */
