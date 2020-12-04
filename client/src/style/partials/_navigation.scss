@@ -1,0 +1,21 @@
+.navigation-container {
+  width: 100%;
+  height: 53px;
+
+
+  &__text {
+    font-family: "Bogle Bold";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #373B37;
+  }
+
+}
+
+.content-container {
+  display: flex;
+  border-bottom: 1px solid $primary-color ;
+  margin: 0 15px;
+}

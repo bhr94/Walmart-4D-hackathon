@@ -1,0 +1,44 @@
+.header {
+  height: 250px;
+  width: 100%;
+
+  &-navigate {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    &__text {
+      font-family: "Bogle Regular";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #373b37;
+      margin-right: 10px;
+    }
+    &__img {
+      margin-right: 15px;
+    }
+  }
+}
+
+.header__article {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  &-title {
+    font-family: "Bogle Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 50px;
+    color: #373b37;
+    margin: 0;
+  }
+
+  &-text {
+      @extend .header-navigate__text;
+      margin: 0;
+  }
+}

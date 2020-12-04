@@ -1,0 +1,25 @@
+.main-section {
+  width: 100%;
+  height: 505px;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+
+  &__article {
+    font-family: "Bogle Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-text {
+        width: 687px;
+    }
+  }
+}
