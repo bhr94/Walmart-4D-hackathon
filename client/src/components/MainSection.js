@@ -57,7 +57,18 @@ class MainSection extends React.Component {
   render() {
     return(
       this.state.changeComponent ? (
-        <DownloadApp />
+        <DownloadApp>
+          <ReactCardFlip
+              isFlipped={this.state.cards[0].isFlipped}
+              flipDirection="vertical"
+            >
+              <Card
+                id={this.state.cards[0].id}
+                flipClick={(id) => this.handleClick(id)}
+              />
+              <BackCard />
+            </ReactCardFlip>
+        </DownloadApp>
       ) : (
         <section className="main-section">
           <article className="main-section__article">

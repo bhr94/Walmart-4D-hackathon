@@ -184,6 +184,8 @@ body {
 .download-app__spark {
   width: 474px;
   height: 542.22px;
+  position: relative;
+  left: 320px;
 }
 
 .download-app__main {
@@ -326,7 +328,8 @@ body {
   width: 246.86px;
   height: 427.44px;
   position: relative;
-  top: -90px;
+  left: -30px;
+  top: -10px;
 }
 
 .card-footer {
