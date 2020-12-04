@@ -193,6 +193,7 @@ body {
   border-radius: 20px;
   -webkit-box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 
 .card__flip {
@@ -239,8 +240,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
 }
 
 .card__spark {
